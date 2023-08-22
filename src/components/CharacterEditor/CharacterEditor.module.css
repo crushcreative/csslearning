@@ -10,7 +10,6 @@
 .header {
   padding-bottom: 64px;
   max-width: 65%;
-  border: 1px solid red;
 }
 
 .title {
@@ -30,7 +29,10 @@
   position: fixed;
   top: 128px;
   right: 0;
-  width: 45%;
+  width: 600px;
+  /* width: 45%; */
+  /* max-height: 200px; */
+  min-height: 500px;
 }
 
 .controlColumn {
