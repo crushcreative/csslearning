@@ -1,6 +1,13 @@
 .buttonRow {
   white-space: nowrap;
   overflow-x: scroll;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .buttonRow {
+    overflow: auto;
+    padding-bottom: 15px;
+  }
 }
