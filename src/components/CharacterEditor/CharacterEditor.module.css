@@ -50,16 +50,15 @@
     top: 0;
     width: 100%;
     min-height: 500px;
-    /* border: 1px solid red; */
   }
   .controlColumn {
     max-width: 100%;
     position: relative;
-    border: 1px solid red;
     z-index: 1;
     height: 155px;
     /* overflow: hidden; */
     overflow-x: scroll;
+    display: flex;
   }
   .characterEditor {
     padding-top: 128px;
