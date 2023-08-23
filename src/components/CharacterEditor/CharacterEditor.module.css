@@ -38,3 +38,31 @@
 .controlColumn {
   max-width: 50%;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+  .maxWidthWrapper {
+    max-width: 100%;
+  }
+  .characterWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 500px;
+    /* border: 1px solid red; */
+  }
+  .controlColumn {
+    max-width: 100%;
+    position: relative;
+    border: 1px solid red;
+    z-index: 1;
+    height: 155px;
+    /* overflow: hidden; */
+    overflow-x: scroll;
+  }
+  .characterEditor {
+    padding-top: 128px;
+    padding-bottom: 16px;
+  }
+}

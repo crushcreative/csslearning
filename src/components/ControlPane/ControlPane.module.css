@@ -25,3 +25,10 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media screen and (max-width: 500px) {
+  .controlPane {
+    padding: 24px;
+    /* position: relative; */
+  }
+}
